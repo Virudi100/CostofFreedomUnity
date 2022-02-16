@@ -1,5 +1,5 @@
 # Cost of Freedom
- Mecha Game with portals ideas on Unity
+ Mecha Game in VR on Unity
 
 Le principe du jeu est un mélange de TitanFall & de Portal.
 Vous jouer un prisonnier de guerre qui cherche à s'échapper, on commence à pied pour s'echapper de sa chambre.
