@@ -8,7 +8,7 @@ public class StartDemo : MonoBehaviour
 {
     [SerializeField] private GameObject title;
     [SerializeField] private GameObject subTitle;
-    private float alphaIndex = 3;
+    private float alphaIndex = 2.5f;
 
 
     // Start is called before the first frame update
@@ -40,9 +40,27 @@ public class StartDemo : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(1f);
+        StartCoroutine(Refade(alphaIndex, title.GetComponent<Text>()));
+        StartCoroutine(RefadeSub(alphaIndex, subTitle.GetComponent<Text>()));
+    }
 
+    public IEnumerator Refade(float t, Text i)
+    { 
+        while (i.color.a > 0f)
+        {
+            i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a - (Time.deltaTime / t));
+            yield return null;
+        }
+    }
+
+    public IEnumerator RefadeSub(float t, Text i)
+    {
+        while (i.color.a > 0f)
+        {
+            i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a - (Time.deltaTime / t));
+            yield return null;
+        }
+        yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(1);
-       
     }
 }
