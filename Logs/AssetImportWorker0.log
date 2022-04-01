@@ -3248,3 +3248,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3158.464220 seconds.
+  path: Assets/MainProject/3D/VR Controllers Models/HTC Vive Controller OpenXR.prefab
+  artifactKey: Guid(c4b9c875ed967534eb12cd57aeeb1183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainProject/3D/VR Controllers Models/HTC Vive Controller OpenXR.prefab using Guid(c4b9c875ed967534eb12cd57aeeb1183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb455c90eb931ac4d685c9fff34704a') in 0.066621 seconds 
+  Import took 0.069988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.667322 seconds.
+  path: Assets/MainProject/3D/VR Controllers Models/HTC Vive Controller OpenXR1.prefab
+  artifactKey: Guid(61e60013ce1d7d942b8975c98fdf8154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainProject/3D/VR Controllers Models/HTC Vive Controller OpenXR1.prefab using Guid(61e60013ce1d7d942b8975c98fdf8154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5d654418f43205843aeb88273102ae') in 0.020823 seconds 
+  Import took 0.029516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.498303 seconds.
+  path: Assets/MainProject/Animations/VRHands/Right Hand Animator.controller
+  artifactKey: Guid(ecb54b3837e3ab841bea4f480030add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainProject/Animations/VRHands/Right Hand Animator.controller using Guid(ecb54b3837e3ab841bea4f480030add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342dc9bf19a6e6f32d288ee0e657bbe7') in 0.002823 seconds 
+  Import took 0.360612 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
