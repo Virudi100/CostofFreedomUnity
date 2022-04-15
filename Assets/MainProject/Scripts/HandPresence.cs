@@ -10,7 +10,7 @@ public class HandPresence : MonoBehaviour
     public List<GameObject> controllerPrefabs;
     public GameObject handModelPrefab;
 
-    private InputDevice targetDevice;
+    [HideInInspector] public InputDevice targetDevice;
     private GameObject spawnedController;
     private GameObject spawnedHandModel;
     private Animator handAnimator;
